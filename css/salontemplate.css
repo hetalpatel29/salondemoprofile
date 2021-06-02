@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profilebar {
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    background: linear-gradient(rgb(230, 55, 84) 40%, orange);
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.menubar {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.menubar nav ul {
+    list-style-type: none;
+}
+
+.menubar nav ul li {
+    width: 80%;
+    margin-bottom: 10px;
+    line-height: 35px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.menubar nav ul li a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.salonlogo {
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: unset;
+    font-style: italic;
+}
+
+.contactbar {
+    margin-top: 70px;
+}
+
+.timing {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.logo {
+    text-align: justify;
+    font-size: 45px;
+}
+
+.logo2 {
+    text-align: justify;
+    font-size: 50px;
+}
+
+.timingdescription {
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.timingdescription2 {
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 23px;
+}
